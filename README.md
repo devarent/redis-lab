@@ -1,4 +1,38 @@
 
+<!-- identity-block -->
+<div align="center">
+
+# redis-lab
+
+<sub>Run Redis 8 in Docker and practice strings, hashes, lists, sorted sets, expiry, and a small Python client.</sub>
+
+</div>
+
+## At a glance
+
+| Field | Detail |
+| --- | --- |
+| Repository | redis-lab |
+| Primary language | Mixed / documentation |
+| Topics | cache, database, database-labs, devarent, docker, key-value, lab, nosql, redis |
+| License | MIT |
+| Branch | main |
+| Maintainer | [@devarent](https://github.com/devarent) |
+
+## Overview
+
+redis-lab is a hands-on repository focused on: Run Redis 8 in Docker and practice strings, hashes, lists, sorted sets, expiry, and a small Python client.. Primary language: Mixed / documentation. Topics: cache, database, database-labs, devarent, docker, key-value, lab, nosql, redis. The README below documents the project; use the table above for a quick overview.
+
+### Global references
+
+<div align="center">
+
+🇮🇸 Iceland &middot; 🇳🇿 New Zealand &middot; 🇨🇭 Switzerland &middot; 🇸🇮 Slovenia &middot; 🇮🇪 Ireland &middot; 🇦🇹 Austria &middot; 🇵🇹 Portugal &middot; 🇸🇬 Singapore &middot; 🇫🇮 Finland
+
+</div>
+
+---
+
 <!-- dbx-style-kit -->
 <div align="center">
 
