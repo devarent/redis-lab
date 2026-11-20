@@ -1,24 +1,18 @@
-# Strings
 SET session:1001 "active"
 GET session:1001
 EXPIRE session:1001 60
 TTL session:1001
 
-# Hashes
 HSET user:1001 name "Ada Lovelace" role "engineer" country "GB"
 HGETALL user:1001
 
-# Lists
 LPUSH queue:jobs "job-1" "job-2" "job-3"
 RPOP queue:jobs
 
-# Sorted sets
 ZADD leaderboard 120 "ada" 90 "grace" 150 "edsger"
 ZREVRANGE leaderboard 0 -1 WITHSCORES
 
-# Sets
 SADD tags:article:1 "database" "redis" "cache"
 SMEMBERS tags:article:1
 
-# Scan instead of KEYS in production
 SCAN 0 MATCH user:* COUNT 10

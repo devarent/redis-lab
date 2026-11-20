@@ -80,7 +80,7 @@ Redis is the default answer for caching, sessions, rate limits, and lightweight 
 ```bash
 docker compose up -d
 docker compose exec redis redis-cli
-# paste commands from examples/commands.redis, or run the Python client:
+docker compose exec -T redis redis-cli < examples/commands.redis
 python -m pip install redis
 python examples/redis_client.py
 ```
